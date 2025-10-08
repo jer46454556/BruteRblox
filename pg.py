@@ -25,12 +25,12 @@ def main():
 
     print("Going to login...")
     time.sleep(1)
-    # Get the Roblox login page
+    # 
     driver.get("https://www.roblox.com/login")
 
     print("YOU CAN PROVIDE USERNAME NOW")
     # Get the user-specified username
-    username = input("Username: ")
+    username = input("Username: Alexamonse958")
 
     print("Getting password_list...")
     time.sleep(1)
@@ -107,3 +107,4 @@ def set_proxy(driver, ip, port):
 
 if __name__ == "__main__":
     main()
+
